@@ -1,0 +1,34 @@
+.productCardDetailed {
+  transform: translateY(1em);
+  display: flex;
+  padding: 1em;
+  margin: 0 1em;
+  gap: 1em;
+  box-shadow: 1px 1px 10px #343434;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.imgSectionProduct {
+  padding: 1em;
+  border: 1px solid #343434;
+  background-color: white;
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 600px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 575px;
+}
+
+.quantityOperation {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  * {
+    text-align: center;
+    align-content: center;
+  }
+}

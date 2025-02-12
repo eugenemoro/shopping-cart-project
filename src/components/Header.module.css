@@ -1,0 +1,33 @@
+.categories {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+
+header {
+  position:fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+  background-color: #343434;
+  a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5rem;
+  }
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+.cartHeader {
+  display: flex;
+  gap: .2em;
+  font-size: 1rem;
+}
